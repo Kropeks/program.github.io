@@ -8,7 +8,7 @@ function validateLogin() {
 
     if (username === validUsername && password === validPassword) {
         // Authentication successful, redirect to another file (e.g., dashboard.html)
-        window.location.href = "calculator.html";
+        window.location.href = "../calculator.html";
     } else {
         alert("Invalid username or password. Please try again.");
     }
